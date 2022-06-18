@@ -21,7 +21,7 @@ print(res)
 
 data[["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]] = data[["Glucose", "BloodPressure", 
 "SkinThickness", "Insulin", "BMI"]].replace(0, np.NAN)
-# we are doing this because bmi glucose bp etc cant be zero so we are doing deature engineering over here
+# we are doing this because bmi glucose bp etc cant be zero so we are doing feature engineering over here
 
 #understand the data
 res = data.isnull().sum()
