@@ -1,4 +1,4 @@
-#Diabetes Detection
+#Diabetes Detection using KNN Classifier
 
 #import the lib
 import pandas as pd
