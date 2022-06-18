@@ -70,6 +70,7 @@ ndata = mms.transform(data)
 res = model.predict(ndata)
 print(res)
 
+#printing maximun and minimum value for setting threshold in the html form
 print(max_values)
 print(min_values)
 
